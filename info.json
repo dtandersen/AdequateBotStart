@@ -1,11 +1,11 @@
 {
   "name": "AdequateBotStart",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "factorio_version": "0.15",
   "dependencies": ["base >= 0.15"],
   "title": "Adequate Bot Start",
   "author": "onebit",
   "contact": "",
   "homepage": "",
-  "description": "Start with modular armor, personal roboport, construction robots, solar panels, and a battery."
+  "description": "Start with modular armor, personal roboport, construction robots, portable solar panels, and a battery."
 }
