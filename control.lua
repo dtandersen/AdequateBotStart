@@ -3,28 +3,24 @@ script.on_event(defines.events.on_player_created, function(event)
 	local armor
 
 	items = {
-		{"modular-armor", 1},
-		{"construction-robot", 20},
+		{"power-armor-mk2", 1},
+		{"construction-robot", 50},
 	}
 	armor = {
-		{"personal-roboport-equipment"},
-		{"personal-roboport-equipment"},
-		{"battery-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
-		{"solar-panel-equipment"},
+		{"fusion-reactor-equipment"},
+		{"fusion-reactor-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"fusion-reactor-equipment"},
+		{"fusion-reactor-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
 	}
 
 	local player = game.players[event.player_index]
