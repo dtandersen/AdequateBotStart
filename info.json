@@ -1,11 +1,11 @@
 {
-  "name": "MegaBotStart",
-  "version": "0.1.0",
-  "factorio_version": "0.15",
-  "dependencies": ["base >= 0.15"],
-  "title": "Mega Bot Start",
-  "author": "ZeroSerenity",
-  "contact": "",
-  "homepage": "http://zeroserenity.com",
-  "description": "Start with Power Armor Mk.2, two personal roboport mk.2, 50 construction robots, three portable fusion reactors, and a battery mk.2."
+    "name": "MegaBotStart",
+    "version": "0.1.1",
+    "factorio_version": "0.16",
+    "dependencies": [ "base >= 0.16" ],
+    "title": "Mega Bot Start",
+    "author": "ZeroSerenity",
+    "contact": "",
+    "homepage": "",
+    "description": "Start with Power Armor Mk.2, two personal roboport mk.2, 50 construction robots, three portable fusion reactors, and two battery mk.2s."
 }

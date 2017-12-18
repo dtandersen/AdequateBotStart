@@ -25,12 +25,16 @@ script.on_event(defines.events.on_player_created, function(event)
 
 	local player = game.players[event.player_index]
 	for i, v in pairs(items) do
-		player.insert{name = v[1], count = v[2]}
-	end
+        if data.raw["item"][v[1]] then
+            player.insert{name = v[1], count = v[2]}
+        end
+    end
 
 	local grid = player.get_inventory(defines.inventory.player_armor)[1].grid
 	for  i, v in pairs(armor) do
-		grid.put({name = v[1]})
+        if data.raw["armor"][v[1]] then
+		    grid.put({name = v[1]})
+        end if
 	end
 
 end)
