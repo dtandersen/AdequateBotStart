@@ -1,8 +1,8 @@
 {
   "name": "AdequateBotStart",
-  "version": "0.15.2",
-  "factorio_version": "0.15",
-  "dependencies": ["base >= 0.15"],
+  "version": "0.16.0",
+  "factorio_version": "0.16",
+  "dependencies": ["base >= 0.16"],
   "title": "Adequate Bot Start",
   "author": "onebit",
   "contact": "",
