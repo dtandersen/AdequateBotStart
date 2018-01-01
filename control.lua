@@ -1,4 +1,13 @@
 script.on_event(defines.events.on_player_created, function(event)
+	local player = game.players[event.player_index]
+	
+	if defines.controllers.god == player.controller_type then
+		return
+	end
+	if defines.controllers.ghost == player.controller_type then
+		return
+	end
+
 	local items
 	local armor
 
@@ -27,7 +36,6 @@ script.on_event(defines.events.on_player_created, function(event)
 		{"solar-panel-equipment"},
 	}
 
-	local player = game.players[event.player_index]
 	for i, v in pairs(items) do
 		player.insert{name = v[1], count = v[2]}
 	end

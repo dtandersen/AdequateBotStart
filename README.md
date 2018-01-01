@@ -9,3 +9,9 @@ Are you tired of building a starter base to research bots and blueprints only to
 No technology is unlocked. No existing items are changed. No new items are added.
 
 Forked from [Peppe Bot Start](https://mods.factorio.com/mods/Peppe/PeppeBotStart). The special starter modular armor was removed, along with the blueprints which aren't needed in 0.15.
+
+**Version History**
+
+* 0.16.1 - Fixed sandbox mode crash (thanks SirWayNe)
+* 0.16.0 - Updated to Factorio 0.16
+* 0.15.2 - Initial release
